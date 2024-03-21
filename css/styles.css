@@ -3,6 +3,8 @@ body{
  font-family: "Roboto", sans-serif;
  second-family: "Raleway", sans-serif;
 }
+ul{list-style-type:none}
+
 .header-logo-studio{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -12,6 +14,7 @@ body{
         text-transform: uppercase;
         color: #4d5ae5;
 }
+
 .header-logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -21,6 +24,7 @@ body{
         text-transform: uppercase;
         color: #2e2f42;
 }
+
 .header-list{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -29,15 +33,30 @@ body{
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+
 .header-address{font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
+
+        .header-address:hover {
+            color: red;
+        }
+    
+        .header-address:focus {
+            color: red;
+        }
+    
+        .header-address:active {
+            color: red;
+        }
+
 .hero {
             background: #2e2f42;
         }
+
 .hero-name{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -47,10 +66,17 @@ body{
         text-align: center;
         color: #fff;
 }
+
 .hero-button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
+
+.hero-button:hover{color:red;}
+.hero-button:focus{color:red;}
+.hero-button:active{color:red;}
+
+/*section1*/
 .section1-title{
 font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -59,6 +85,7 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .section1-list{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -67,11 +94,12 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
 }
-
+/*section2*/
 
 .section2{
 background: #f4f4fd;
 }
+
 .section2-title{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -81,6 +109,7 @@ background: #f4f4fd;
         text-align: center;
         color: #2e2f42;
 }
+
 .section2-name{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -90,6 +119,7 @@ background: #f4f4fd;
         text-align: center;
         color: #2e2f42;
 }
+
 .section2-position{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -101,6 +131,8 @@ background: #f4f4fd;
 }
 
 
+/*section3*/
+
 .serction3-portfolio{
     font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -110,3 +142,51 @@ background: #f4f4fd;
         text-align: center;
         color: #2e2f42;
 }
+
+.section3-title {
+font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section3-text{
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*footer*/
+.footer {background: #2e2f42;}
+
+.footer-title 
+{font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;}
+
+.footer-title-span 
+{font-family: "Raleway",
+sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;}
+
+.footer-text 
+{font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;}
