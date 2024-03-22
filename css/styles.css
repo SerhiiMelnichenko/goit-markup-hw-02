@@ -127,6 +127,9 @@ background:#f4f4fd;
 
 
 /*section3*/
+.portfolio{
+background-color: #FFFFFF
+}
 
 .portfolio-title{
         font-weight:700;
@@ -138,7 +141,7 @@ background:#f4f4fd;
         text-transform: capitalize;
 }
 
-.portfolio-subtitle {
+.portfolio-subtitle-pro {
     font-weight:500;
     font-size:20px;
     line-height:1.2;
