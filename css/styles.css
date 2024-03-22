@@ -140,6 +140,9 @@ background-color: #FFFFFF
         color:#2e2f42;
         text-transform: capitalize;
 }
+.portfolio-fon-col{
+background-color: #FFFFFF
+}
 
 .portfolio-subtitle-pro {
     font-weight:500;
