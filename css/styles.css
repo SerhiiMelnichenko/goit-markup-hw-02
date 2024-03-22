@@ -108,6 +108,9 @@ background:#f4f4fd;
         text-transform: capitalize;
 }
 
+.team-item-fon{
+    background-color: #FFFFFF;
+}
 .team-subtitle{
         font-weight:500;
         font-size:20px;
