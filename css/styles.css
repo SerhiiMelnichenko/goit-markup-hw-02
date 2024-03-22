@@ -66,6 +66,10 @@ ul, ol{list-style:none}
 .service-button{
     background:#4d5ae5;
     cursor:pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .service-button:hover,
